@@ -1,10 +1,10 @@
 # My Portfolio
 
-A personal portfolio application built with Flutter to showcase my projects, skills, and experience across web and mobile platforms.
+Welcome to My Portfolio — a Flutter-based web and mobile application showcasing my projects, skills, and experience.
 
 ## Overview
 
-This project is designed to provide a responsive, modern portfolio interface using Flutter and Firebase integration.
+This project serves as a personal portfolio platform built with Flutter, designed to provide a sleek and responsive experience across devices. It demonstrates my Flutter development skills along with integration of Firebase services.
 
 ## Getting Started
 
@@ -26,4 +26,4 @@ For comprehensive Flutter documentation, tutorials, and API references, visit th
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/my_portfolio.git
+   git clone https://github.com/DURGAPADA80/my_portfolio.git
