@@ -33,7 +33,7 @@ class MainMobaile extends StatelessWidget {
             blendMode: BlendMode.srcATop,
             child: Image.asset(
               "assets/flutter_avter_image.png",
-              width: screenWidth / 2,
+              width: screenWidth / 3,
             ),
           ),
           const SizedBox(
