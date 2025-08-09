@@ -48,7 +48,7 @@ class ProjectSection extends StatelessWidget {
 
           // Hobby project title
           const Text(
-            "Hobby Projects.",
+            "Prectice Projects.",
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
