@@ -25,15 +25,14 @@ class MainMobaile extends StatelessWidget {
           // avatar img
           ShaderMask(
             shaderCallback: (bounds) {
-              return LinearGradient(colors: [
-                CustomColor.scaffoldBg.withOpacity(0.6),
-                CustomColor.scaffoldBg.withOpacity(0.6),
-              ]).createShader(bounds);
+              return const LinearGradient(
+                      colors: [Colors.transparent, Colors.black26])
+                  .createShader(bounds);
             },
             blendMode: BlendMode.srcATop,
             child: Image.asset(
               "assets/flutter_avter_image.png",
-              width: screenWidth / 3,
+              width: screenWidth * 0.6,
             ),
           ),
           const SizedBox(
