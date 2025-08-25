@@ -25,7 +25,7 @@ class MainDesktop extends StatelessWidget {
             children: [
               //intro massage
               const Text(
-                "Hi...\nI'm Durgapada Karan\nA  AI & ML Student.",
+                "Hi...\nI'm Durgapada Karan\nAn AI & ML Student.",
                 style: TextStyle(
                   fontSize: 30.0,
                   height: 1.5,

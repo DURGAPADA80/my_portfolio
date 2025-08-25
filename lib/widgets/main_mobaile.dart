@@ -26,10 +26,10 @@ class MainMobaile extends StatelessWidget {
           ShaderMask(
             shaderCallback: (bounds) {
               return const LinearGradient(
-                      colors: [Colors.transparent, Colors.black26])
+                      colors: [Colors.transparent, Colors.black])
                   .createShader(bounds);
             },
-            blendMode: BlendMode.srcATop,
+            blendMode: BlendMode.dstIn,
             child: Image.asset(
               "assets/flutter_avter_image.png",
               width: screenWidth * 0.6,
@@ -40,7 +40,7 @@ class MainMobaile extends StatelessWidget {
           ),
           //intro massage
           const Text(
-            "Hi...\nI'm Durgapada Karan\nA  AI & ML Student.",
+            "Hi...\nI'm Durgapada Karan\nAn  AI & ML Student.",
             style: TextStyle(
               fontSize: 24.0,
               height: 1.5,
