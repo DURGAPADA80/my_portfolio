@@ -21,7 +21,7 @@ class CustomTextField extends StatelessWidget {
         color: CustomColor.scaffoldBg,
       ),
       decoration: InputDecoration(
-        contentPadding: EdgeInsets.all(16),
+        contentPadding: const EdgeInsets.all(16),
         filled: true,
         fillColor: CustomColor.whiteSecondary,
         focusedBorder: getInputBorder,

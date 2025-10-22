@@ -22,7 +22,7 @@ class HeaderMobile extends StatelessWidget {
             onPressed: onMenuTap,
             icon: const Icon(Icons.menu),
           ),
-          SizedBox(width: 16),
+          const SizedBox(width: 16),
         ],
       ),
     );

@@ -36,7 +36,7 @@ class projectCardWidgets extends StatelessWidget {
           // Title
 
           Padding(
-            padding: EdgeInsets.fromLTRB(12, 15, 12, 12),
+            padding: const EdgeInsets.fromLTRB(12, 15, 12, 12),
             child: Text(
               project.title,
               style: const TextStyle(
@@ -49,7 +49,7 @@ class projectCardWidgets extends StatelessWidget {
           //subtitle
 
           Padding(
-            padding: EdgeInsets.fromLTRB(12, 0, 12, 12),
+            padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
             child: Text(
               project.subtitle,
               style: const TextStyle(

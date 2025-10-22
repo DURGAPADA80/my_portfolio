@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
 import 'package:my_portfolio/constants/colors.dart';
 import 'package:my_portfolio/constants/size.dart';
 import 'package:my_portfolio/constants/sns_links.dart';
