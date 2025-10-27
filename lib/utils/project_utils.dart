@@ -5,6 +5,7 @@ class ProjectUtils {
   final String? androidLink;
   final String? iosLink;
   final String? webLink;
+  final String? githubLink;
 
   ProjectUtils({
     required this.image,
@@ -13,6 +14,7 @@ class ProjectUtils {
     this.androidLink,
     this.iosLink,
     this.webLink,
+    this.githubLink,
   });
 }
 
@@ -78,26 +80,24 @@ List<ProjectUtils> hobbyProjectUtils = [
 List<ProjectUtils> workProjectUtils = [
   ProjectUtils(
     image: 'assets/projects/w01.png',
-    title: 'currently no project -> w01',
+    title: 'ReelGen AI',
     subtitle:
-        'RANDOM -> This is an English learning app for students to learn English through various methods.',
-    androidLink:
-        'https://play.google.com/store/apps/details?id=kr.co.evolcano.donotstudy',
-    iosLink:
-        "https://apps.apple.com/kr/app/%EC%98%81%EC%96%B4%EB%A8%B8%EB%A6%AC-%EA%B3%B5%EC%9E%91%EC%86%8C/id1507102714",
+        'A Flask-based web app that converts images and text into short, AIgenerated with realistic voiceovers',
+    githubLink: 'https://github.com/DURGAPADA80/ReelGen-AI.git.',
   ),
   ProjectUtils(
     image: 'assets/projects/w02.png',
-    title: 'currently no project-> w02',
+    title: 'Spotify-Clone',
     subtitle:
-        'RANDOM -> This is a responsive online shop web application for car engine oil.',
-    webLink: 'https://www.elo.best',
+        'Developed a fully responsive online music player inspired by Spotify',
+    githubLink: ' https://github.com/DURGAPADA80/Spotify-Clone.git',
   ),
   ProjectUtils(
     image: 'assets/projects/w03.png',
-    title: 'currently no project-> w03',
+    title: 'my_portfolio web app',
     subtitle:
-        'RANDOM -> This is an Advertisement Management System to buy, sell, and manage advertisement.',
-    webLink: 'https://www.externally.unavailable.project',
+        'Developed and deployed a personal portfolio website to showcase skills and projects',
+    webLink: 'https://stately-moon-414411.firebaseapp.com/',
+    githubLink: 'https://github.com/DURGAPADA80/my_portfolio.git',
   ),
 ];

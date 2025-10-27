@@ -19,24 +19,24 @@ const List<Map> platformItems = [
 
 const List<Map> skillItems = [
   {
-    "img": "assets/flutter.png",
-    "title": "Flutter",
-  },
-  {
-    "img": "assets/dart.png",
-    "title": "Dart",
-  },
-  {
     "img": "assets/html5.png",
-    "title": "HTML5",
+    "title": "HTML",
   },
   {
     "img": "assets/css3.png",
-    "title": "CSS3",
+    "title": "CSS",
   },
   {
     "img": "assets/javascript.png",
     "title": "JS",
+  },
+  {
+    "img": "assets/Flask.png",
+    "title": "Flask",
+  },
+  {
+    "img": "assets/flutter.png",
+    "title": "Flutter",
   },
   {
     "img": "assets/c languag.jpeg",
@@ -49,5 +49,9 @@ const List<Map> skillItems = [
   {
     "img": "assets/java.png",
     "title": "java",
-  }
+  },
+  {
+    "img": "assets/dart.png",
+    "title": "Dart",
+  },
 ];

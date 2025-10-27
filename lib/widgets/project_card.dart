@@ -88,6 +88,19 @@ class projectCardWidgets extends StatelessWidget {
                       width: 15,
                     ),
                   ),
+                if (project.githubLink != null)
+                  Padding(
+                    padding: const EdgeInsets.only(left: 6),
+                    child: InkWell(
+                      onTap: () {
+                        js.context.callMethod("open", [project.githubLink]);
+                      },
+                      child: Image.asset(
+                        "assets/github.png",
+                        width: 15,
+                      ),
+                    ),
+                  ),
                 if (project.androidLink != null)
                   Padding(
                     padding: const EdgeInsets.only(left: 6),
